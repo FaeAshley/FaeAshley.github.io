@@ -1,0 +1,205 @@
+/* GENERAL RESET & FONTS */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #121212;
+  color: #f8f9fa;
+  overflow-x: hidden;
+  position: relative;
+  z-index: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 600;
+}
+
+/* HERO */
+header {
+  background-color: transparent;
+  position: relative;
+  z-index: 1;
+}
+
+header .btn {
+  font-size: 1.1rem;
+  padding: 0.7rem 1.5rem;
+}
+
+/* PARTICLE BACKGROUND */
+#particles-js {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* SECTIONS */
+section {
+  position: relative;
+  z-index: 1;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.bg-black {
+  background-color: #0e0e0e !important;
+}
+
+.text-light-emphasis {
+  color: #bbbbbb !important;
+}
+
+.faux-glassy {
+  background: rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 30px rgba(0, 255, 255, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+
+/* CARDS */
+.card {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(17, 200, 236, 0.459);
+}
+
+.card-body:hover {
+    box-shadow: 0 0 20px rgba(17, 200, 236, 0.459);
+}
+
+/* NAVBAR */
+.navbar {
+  backdrop-filter: blur(6px);
+}
+
+.nav-link {
+  margin-left: 1rem;
+  font-weight: 500;
+  color: #f8f9fa !important;
+}
+
+.nav-link:hover {
+  color: #0dcaf0 !important;
+}
+/* SKILLS */
+.skills {
+  margin-top: 2rem;
+  row-gap: 2rem;
+}
+
+.skills__item {
+  flex: 0 0 calc(33.333% - 2rem); /* 3 per row, with gap spacing */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0 12px rgba(13, 202, 240, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s forwards;
+}
+
+
+.skills__item img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  filter: drop-shadow(0 0 6px rgba(13, 202, 240, 0.3));
+}
+
+.skills__item-name {
+  margin-top: 0.5rem;
+  color: #ccc;
+  font-size: 0.9rem;
+}
+
+/* Responsive fallback for small screens */
+@media (max-width: 768px) {
+  .skills__item {
+    flex: 0 0 calc(50% - 1rem); /* 2 per row on tablet */
+  }
+}
+
+@media (max-width: 480px) {
+  .skills__item {
+    flex: 0 0 100%; /* Full width on mobile */
+  }
+}
+
+/* Fade-in animation */
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* BUTTONS */
+.btn-burgundy {
+    --bs-btn-color: #800020;
+    --bs-btn-border-color: #800020;
+    --bs-btn-hover-color: #000;
+    --bs-btn-hover-bg: #800020;
+    --bs-btn-hover-border-color: #800020;
+    --bs-btn-focus-shadow-rgb: 13, 202, 240;
+    --bs-btn-active-color: #000;
+    --bs-btn-active-bg: #800020;
+    --bs-btn-active-border-color: #800020;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #800020;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #800020;
+    --bs-gradient: none;
+
+}
+
+.btn-burgundy-info {
+    --bs-btn-color: #000;
+    --bs-btn-bg: #800020;
+    --bs-btn-border-color: #800020;
+    --bs-btn-hover-color: #000;
+    --bs-btn-hover-bg: #800020;
+    --bs-btn-hover-border-color: #800020;
+    --bs-btn-focus-shadow-rgb: 11, 172, 204;
+    --bs-btn-active-color: #000;
+    --bs-btn-active-bg: #800020;
+    --bs-btn-active-border-color: #800020;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #000;
+    --bs-btn-disabled-bg: #800020;
+    --bs-btn-disabled-border-color: #800020;
+}
+
+.btn-burgundy:hover,
+.btn-burgundy-info:hover {
+  color: #000;
+  background-color: #800020;
+  border-color: #800020;
+}
+
+/* TEXT */
+.text-burgundy {
+    color: #800020
+}
+/* FOOTER */
+footer {
+  font-size: 0.9rem;
+}
+
+/* SCROLLBEHAVIOR */
+html {
+  scroll-behavior: smooth;
+}
