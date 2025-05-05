@@ -1,0 +1,55 @@
+Experience Overview:
+
+Fae Ashley is a full-stack software developer, client advocate, and creative problem solver with a uniquely diverse background across technology, business, and the arts. She blends strong technical expertise with emotional intelligence, leadership, and an unwavering commitment to excellence.
+
+Technical and Professional Experience:
+
+Software Developer | Ellifluous Solutions | May 2023 – Present
+- Developed full-stack web applications using Python, Flask, JavaScript, and PostgreSQL.
+- Designed dynamic, responsive front-end interfaces and user experiences.
+- Integrated third-party APIs (Stripe, Google Maps) and optimized database structures.
+- Handled full project cycles: planning, prototyping, deployment, and post-deployment support.
+
+Owner and Caretaker | Round of A-Paws | 2015 – Present
+- Founded and operated a successful pet sitting and boarding business.
+- Built a loyal client base through personalized service, communication, and trust.
+- Handled business management, client onboarding, service delivery, and marketing.
+
+Account Manager II | Paylocity | Aug 2021 – Aug 2023
+- Managed a portfolio of mid-to-large business clients, resolving complex payroll and software issues.
+- Led client onboarding and training, translating technical tools into user-friendly solutions.
+- Advocated for client needs through cross-functional collaboration with product and engineering teams.
+- Improved internal troubleshooting processes to increase efficiency and client satisfaction.
+
+Fleet Response Specialist | Waymo (through Adecco) | Jul 2019 – Jul 2021
+- Managed real-time operations for autonomous vehicle fleets.
+- Streamlined fleet protocols, prioritized triaging, and contributed to system reliability improvements.
+- Collaborated with cross-functional teams to resolve technical incidents and optimize safety measures.
+
+Senior Credit Risk Analyst | Chase Bank | Aug 2014 – Oct 2017
+- Conducted meticulous credit risk analyses, enhancing decision-making for loan management.
+- Strengthened client trust through transparent communication and issue resolution.
+- Leveraged data patterns for improved risk evaluation and early warning indicators.
+
+Additional Professional Experience:
+
+Professional Swing Dancer and Instructor | 2018 – Present
+- Taught and performed West Coast Swing professionally at events and private workshops.
+- Developed communication, coaching, and performance skills through years of competitive and instructional experience.
+
+Customer Service Expert | 2010 – Present
+- Over a decade of experience providing client support, issue resolution, and long-term relationship building across diverse industries including finance, tech, and service-based businesses.
+
+Education:
+
+Bachelor of Science in Computer Science | Western Governors University | Expected Aug 2024
+Master’s Degree in Computer Science | Western Governors University | Expected Apr 2025
+
+Certifications:
+
+- CompTIA Project+ (May 2024)
+- Responsive Web Design (freeCodeCamp, Dec 2024)
+
+Technical Skills:
+
+Python · Flask · React · SQL · PostgreSQL · JavaScript · HTML/CSS · Pandas · Agile · Git · API Integration · Web Scraping · Data Automation
