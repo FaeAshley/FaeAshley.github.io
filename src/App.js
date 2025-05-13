@@ -7,7 +7,7 @@ import {
 import Home from "./pages/Home";
 // import Projects from "./pages/Projects";
 // import About from "./pages/About";
-// import Contact from "./pages/Contact";
+import Contact from "./pages/Contact";
 import Navbar from "./components/Shared/Navbar";
 import ChatWidget from "./components/Shared/ChatWidget";
 
@@ -19,8 +19,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         {/* <Route path="/projects" element={<Projects />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} /> */}
+        <Route path="/about" element={<About />} />*/}
+        <Route path="/contact" element={<Contact />} /> 
       </Routes>
     </Router>
   );

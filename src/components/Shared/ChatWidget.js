@@ -45,7 +45,7 @@ const ChatWidget = () => {
     setLoading(true);
 
     try {
-        const res = await fetch(process.env.REACT_APP_API_URL, {
+        const res = await fetch(process.env.REACT_APP_CHAT_API_URL, {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
@@ -117,7 +117,7 @@ const ChatWidget = () => {
           </div>
           {loading && (
             <div className="text-sm text-gray-400 text-center py-2 italic">
-              Pinging the Server... FaeGPT is waking up...
+              FaeGPT is waking up... This may take 1-2 minutes...
             </div>
           )}
 
