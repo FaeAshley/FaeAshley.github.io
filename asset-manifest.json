@@ -1,16 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.7868c30c.css",
-    "main.js": "/static/js/main.1bee914a.js",
+    "main.css": "/static/css/main.cc2e3661.css",
+    "main.js": "/static/js/main.8dd6c77a.js",
     "static/js/453.906b0208.chunk.js": "/static/js/453.906b0208.chunk.js",
     "static/media/contact-image.png": "/static/media/contact-image.8c1c77685611dda3bd30.png",
+    "static/media/chatbot6.PNG": "/static/media/chatbot6.4c5122d2471d2aae2a4e.PNG",
+    "static/media/chatbot4.PNG": "/static/media/chatbot4.e6fbcd934a3840d0c561.PNG",
+    "static/media/chatbot2.PNG": "/static/media/chatbot2.6d29274870f480c0bda3.PNG",
+    "static/media/chatbot5.PNG": "/static/media/chatbot5.11f5d5e21d236c75d07f.PNG",
+    "static/media/chatbot1.PNG": "/static/media/chatbot1.1494019b87c3f302902a.PNG",
+    "static/media/chatbot8.PNG": "/static/media/chatbot8.0303b7988b0257043fcc.PNG",
+    "static/media/chatbot3.PNG": "/static/media/chatbot3.e92df78656c5d8616e9e.PNG",
+    "static/media/chatbot7.PNG": "/static/media/chatbot7.834340ed99593746e804.PNG",
     "index.html": "/index.html",
-    "main.7868c30c.css.map": "/static/css/main.7868c30c.css.map",
-    "main.1bee914a.js.map": "/static/js/main.1bee914a.js.map",
+    "main.cc2e3661.css.map": "/static/css/main.cc2e3661.css.map",
+    "main.8dd6c77a.js.map": "/static/js/main.8dd6c77a.js.map",
     "453.906b0208.chunk.js.map": "/static/js/453.906b0208.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7868c30c.css",
-    "static/js/main.1bee914a.js"
+    "static/css/main.cc2e3661.css",
+    "static/js/main.8dd6c77a.js"
   ]
 }
