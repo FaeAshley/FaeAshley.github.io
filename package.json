@@ -1,6 +1,6 @@
 {
   "name": "portfolio-react",
-  "homepage": "https://faeashley.github.io/",
+  "homepage": "https://faeashley.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,6 +11,8 @@
     "nth-check": "^2.1.1",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
+    "react-icons": "^5.5.0",
+    "react-multi-carousel": "^2.8.6",
     "react-router-dom": "^7.6.0",
     "react-scripts": "5.0.1",
     "react-tsparticles": "^2.12.2",

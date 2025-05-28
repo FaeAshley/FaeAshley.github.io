@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+console.log('Chat API:', process.env.REACT_APP_CHAT_API_URL)
 
 const ChatWidget = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -8,7 +9,7 @@ const ChatWidget = () => {
     {
         role: "bot",
         content:
-        "Hi there, I’m FaeGPT—Fae’s trusted companion here to help you get to know Fae! Ask me anything about her skills, experience, or projects. I’ve got the receipts.",
+        "Hi there, I’m FaeGPT—Fae’s trusted companion here to help you get to know Fae! Ask me anything about her skills, experience, or projects.",
     },
   ]);
   
@@ -17,7 +18,7 @@ const ChatWidget = () => {
       setLoading(true);
 
       try {
-        await fetch(process.env.REACT_APP_API_URL, {
+        await fetch(process.env.REACT_APP_CHAT_API_URL, {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

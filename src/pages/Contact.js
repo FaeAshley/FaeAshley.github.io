@@ -115,6 +115,7 @@ const ContactForm = () => {
 
     );
 }
+
 const ContactImage = () => {
     return(
         <div className="flex-1 p-6 rounded-lg shadow-md flex items-center justify-center">
@@ -126,6 +127,7 @@ const ContactImage = () => {
         </div>
     );
 }
+
 function Contact() {
   return (
     <div className="relative min-h-screen">

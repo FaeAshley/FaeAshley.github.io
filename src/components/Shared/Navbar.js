@@ -12,7 +12,7 @@ function Navbar() {
                     <div className="hidden md:flex space-x-6">
                         <Link to="/" className="text-white hover:text-magenta transition">Home</Link>
                         <Link to="/projects" className="text-white hover:text-magenta transition">Projects</Link>
-                        <Link to="/about" className="text-white hover:text-magenta transition">About</Link>
+                        <Link to="/about" className="text-white hover:text-magenta transition">Epitome</Link>
                         <Link to="/contact" className="text-white hover:text-magenta transition">Contact</Link>
                     </div>
                 </div>

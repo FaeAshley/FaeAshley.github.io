@@ -19,6 +19,9 @@ module.exports = {
           light: '#d63384',
           dark: '#a62061',
         },
+        blck: {
+          DEFAULT: '#000000',
+        }
       },
     },
   },
