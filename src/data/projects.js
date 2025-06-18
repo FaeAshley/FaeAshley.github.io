@@ -15,11 +15,12 @@ const importAll = (r) => {
   return images;
 };
 
-const petImages = importAll(require.context('../assets/petplatform', false, /\.(png|jpe?g|svg)$/));
-const mpImages = importAll(require.context('../assets/matchplay', false, /\.(png|jpe?g|svg)$/));
-const itImages = importAll(require.context('../assets/inTouch', false, /\.(png|jpe?g|svg)$/));
-const mbImages = importAll(require.context('../assets/moodboardify', false, /\.(png|jpe?g|svg)$/));
-const ttImages = importAll(require.context('../assets/timetracker', false, /\.(png|jpe?g|svg)$/));
+const petImages = importAll(require.context('../assets/petplatform', false, /\.(png|PNG|jpe?g|svg)$/));
+const mpImages = importAll(require.context('../assets/matchplay', false, /\.(png|PNG|jpe?g|svg)$/));
+const itImages = importAll(require.context('../assets/inTouch', false, /\.(png|PNG|jpe?g|svg)$/));
+const mbImages = importAll(require.context('../assets/moodboardify', false, /\.(png|PNG|jpe?g|svg)$/));
+const ttImages = importAll(require.context('../assets/timetracker', false, /\.(png|PNG|jpe?g|svg)$/));
+
 
 export const projects = [
   {
@@ -63,7 +64,7 @@ export const projects = [
         {
             src: chatbot5,
             alt: "FaeGPT React UI",
-            caption: "FaeGPT React UI and handling of server fetch/response and error catching"
+            caption: "FaeGPT React UI and handling ohf server fetch/response and error catching"
         },
         {
             src: chatbot6,

@@ -32,3 +32,5 @@ venv/
 .idea/
 .vscode/
 .DS_Store
+src/pages/Blank.js
+src/components/Blank.js
