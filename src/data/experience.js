@@ -1,31 +1,18 @@
 export const workExperience = [
     { 
         id:1,
-        company:'Ellifluous Solutions',
-        role:'Software Engineer',
-        start: 'May 2023',
+        company:'Starfighters',
+        role:'Product Engineer',
+        start: 'August 2023',
         end: 'Present',
         description: [
-            "Built and managed a pet care business serving long-term and short-term clients.",
-            "Handled scheduling, client communication, and animal care.",
-            "Gained a reputation for reliability, empathy, and strong communication."
+            "Designed and developed full stack web applications using FastAPI, Python, JavaScript, React, SQLAlchemy, and PostgreSQL, supporting issue tracking and workflow visibility across 50+ serviced electromechanical systems",
+            "Architected backend services, APIs, and relational database schemas to replace manual tracking methods, improving repair documentation consistency and reducing issue logging time by an estimated 40%",
+            "Diagnosed and repaired failures across electrical components, circuitry, sensors, and mechanical assemblies, completing 100+ hands on service interventions and restoring system reliability in high use environments"
         ]
     },
     {
         id:2,
-        company:'TrulyFetching - Pet Boarding and Sitting',
-        role:'Owner & Operator',
-        start: '2015',
-        end: 'Present',
-        description: [
-            "Design and build full-stack applications with a focus on elegant problem-solving, clean architecture, and intuitive user experiences.",
-            "Implement automation tools, AI-powered features, and API integrations to streamline workflows and enhance functionality across projects.",
-            "Translate complex ideas into thoughtful, scalable systems—balancing user needs, performance, and maintainability.",
-            "Collaborate across disciplines to bring emotionally intelligent, human-centered technology to life.",
-        ]
-    },
-    {
-        id:3,
         company:'Paylocity',
         role:'Account Manager II',
         start: 'August 2021',
@@ -38,7 +25,7 @@ export const workExperience = [
         ]
     },
     {
-        id:4,
+        id:3,
         company:'Waymo through Adecco',
         role:'Fleet Response Specialist',
         start: 'July 2019',
@@ -51,7 +38,7 @@ export const workExperience = [
         ]
     },
     {
-        id:5,
+        id:4,
         company:'Chase Bank',
         role:'Senior Credit Risk Analyst',
         start: 'August 2014',
