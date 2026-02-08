@@ -8,7 +8,8 @@ export const workExperience = [
         description: [
             "Designed and developed full stack web applications using FastAPI, Python, JavaScript, React, SQLAlchemy, and PostgreSQL, supporting issue tracking and workflow visibility across 50+ serviced electromechanical systems",
             "Architected backend services, APIs, and relational database schemas to replace manual tracking methods, improving repair documentation consistency and reducing issue logging time by an estimated 40%",
-            "Diagnosed and repaired failures across electrical components, circuitry, sensors, and mechanical assemblies, completing 100+ hands on service interventions and restoring system reliability in high use environments"
+            "Diagnosed and repaired failures across electrical components, circuitry, sensors, and mechanical assemblies, completing 100+ hands on service interventions and restoring system reliability in high use environments",
+            "Bridged physical system expertise with software design by creating tools that track equipment health and service history, enabling faster root cause identification and reducing repeat failure investigations by an estimated 25%"
         ]
     },
     {
